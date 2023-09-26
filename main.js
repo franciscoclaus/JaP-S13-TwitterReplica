@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const URL = 'https://my-json-server.typicode.com/ponstomas/db/posts';
+    const URL = 'https://my-json-server.typicode.com/franciscoclaus/jsonTwitter/posts';
 
     fetch(URL)
         .then(response => response.json())
